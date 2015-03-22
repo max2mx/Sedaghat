@@ -1,0 +1,240 @@
+@media only screen and (min-width: 480px) {
+    .cd-gallery > li {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+        margin-bottom: 1.2em;
+    }
+    .cd-gallery > li:nth-of-type(2n) {
+        /*     margin-right: 0; */
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cd-gallery > li {
+        /*     width: 22%; */
+        float: left;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+    .cd-gallery{
+        width:850px;
+    }
+    .cd-gallery > li{
+        /* 	  margin: 80px; */
+        margin-top: 50px;
+    }
+    .cd-gallery > li > ul > li > img{
+        /*
+              border: 2px solid ;
+             border-color: #16405B;
+        */
+    }
+
+    .cd-gallery > li:nth-child(1){
+        width: 200px;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+    .cd-gallery > li:nth-child(1) > ul > li > img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .cd-gallery > li:nth-child(2){
+        width: 40px;
+        height: 60px;
+        background-image: url("../img/light-arrow3.png");
+        background-size: 40px 60px;
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        margin-left: 40px;
+        margin-right:	30px;
+    }
+    .cd-gallery > li:nth-child(2) > ul > li > img{
+        width: 68px;
+        height: 100px;
+
+    }
+
+
+    .cd-gallery > li:nth-child(3){
+        width: 300px;
+        margin-left: -40px;
+    }
+    .cd-gallery > li:nth-child(3) > ul > li > img{
+        width: 200px;
+        height: 300px;
+
+    }
+
+}
+
+@media (max-width:950px){
+    .cd-gallery{
+        width:550px;
+    }
+    .cd-gallery > li{
+        /* 	  margin: 80px; */
+        margin-top: 50px;
+    }
+    .cd-gallery > li > ul > li > img{
+        /*
+              border: 2px solid ;
+             border-color: #16405B;
+        */
+    }
+
+    .cd-gallery > li:nth-child(1){
+        width: 200px;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .cd-gallery > li:nth-child(1) > ul > li > img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .cd-gallery > li:nth-child(2){
+        width: 40px;
+        height: 60px;
+        background-image: url("../img/light-arrow3.png");
+        background-size: 40px 60px;
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        /* 	      margin-left: 40px; */
+        margin-right:	30px;
+    }
+    .cd-gallery > li:nth-child(2) > ul > li > img{
+        width: 68px;
+        height: 100px;
+
+    }
+
+
+    .cd-gallery > li:nth-child(3){
+        width: 200px;
+        /* 	    	margin-left: -40px;  			 */
+    }
+    .cd-gallery > li:nth-child(3) > ul > li > img{
+        width: 200px;
+        height: 300px;
+
+    }
+
+}
+@media (max-width:750px){
+    .cd-gallery{
+        width:650px;
+    }
+    .cd-gallery > li{
+        /* 	  margin: 80px; */
+        margin-top: 50px;
+    }
+    .cd-gallery > li > ul > li > img{
+        /*
+              border: 2px solid ;
+             border-color: #16405B;
+        */
+    }
+
+    .cd-gallery > li:nth-child(1){
+        width: 200px;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+    .cd-gallery > li:nth-child(1) > ul > li > img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .cd-gallery > li:nth-child(2){
+        width: 40px;
+        height: 60px;
+        background-image: url("../img/light-arrow3.png");
+        background-size: 40px 60px;
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        margin-left: 40px;
+        margin-right:	30px;
+    }
+    .cd-gallery > li:nth-child(2) > ul > li > img{
+        width: 68px;
+        height: 100px;
+
+    }
+
+
+    .cd-gallery > li:nth-child(3){
+        width: 300px;
+        margin-left: -40px;
+    }
+    .cd-gallery > li:nth-child(3) > ul > li > img{
+        width: 200px;
+        height: 300px;
+
+    }
+
+}
+
+@media (max-width:480px) {
+    .cd-gallery {
+        width: 320px;
+    }
+
+    .cd-gallery > li {
+        /* 	  margin: 80px; */
+        margin-top: 50px;
+    }
+
+    .cd-gallery > li > ul > li > img {
+        /*
+              border: 2px solid ;
+             border-color: #16405B;
+        */
+    }
+
+    .cd-gallery > li:nth-child(1) {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .cd-gallery > li:nth-child(1) > ul > li > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cd-gallery > li:nth-child(2) {
+        width: 60px;
+        height: 40px;
+        background-image: url("../img/light-arrow-down.png");
+        background-size: 60px 40px;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cd-gallery > li:nth-child(2) > ul > li > img {
+        width: 68px;
+        height: 100px;
+
+    }
+
+    .cd-gallery > li:nth-child(3) {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cd-gallery > li:nth-child(3) > ul > li > img {
+        width: 200px;
+        height: 300px;
+
+    }
+}

@@ -1,0 +1,164 @@
+
+
+
+.recipe-form{
+	  padding-top: 80px;
+	  padding-bottom: 80px;
+	  background-attachment: scroll;
+/* 	  background: #fff no-repeat center top; */
+	  background-size: cover;
+	  background-attachment: fixed;
+	  position: relative;
+	  overflow: hidden;
+	  z-index: 0;
+	  position: inherit;
+	  background-image: url(../images/bg_4.jpg);
+}
+
+section {
+  padding: 45px 0;
+  display: block;
+      margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+.container-fluid {
+/*   max-width: 64.375em; */
+  position: relative;
+  overflow: hidden;
+  margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
+.recipe-form .box_submit_receipe {
+  text-align: center;
+/*   background: rgba(255,255,255,0.8) url(../images/logo-header5.png) no-repeat 50% 10.5%; */
+  padding: 165px 30px 100px;
+  width: 60%;
+  min-width: 290px;
+  margin: 3% auto;
+/*   font-size:48px; */
+
+}
+
+.recipe-form .box_submit_receipe h2 {
+  font-size: 48px;
+/*     font: normal 3.5em/1em 'BKoodakBold'; */
+	margin-top: -25px;
+	font-family: 'BEsfehanBold', sans-serif;
+/*   color: #3598db; */
+	color: #3598db;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.recipe-form .box_submit_receipe p{
+		font-family: 'BEsfehanBold', sans-serif;
+		font-size: 45px;
+	color: #3598db;
+	margin: 0;
+	margin-top: -20px;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+
+.recipe-form .box_submit_receipe .go {
+  position: absolute;
+  left: 50%;
+  bottom: 16%;
+  margin-left: -22px;
+}
+
+.go.style2 {
+  background-position: -3px -128px;
+}
+
+.go {
+  width: 54px;
+  height: 53px;
+  text-indent: -1000px;
+  display: block;
+  z-index: 10;
+  clear: both;
+  margin: 0 auto;
+  -webkit-transform: scale(0.8);
+  -webkit-transition: all .2s ease-in-out;
+  background-image: url(../images/sprite.png);
+background-repeat: no-repeat;
+  }
+  
+ .go a{
+	   color: #ee3a43;
+  text-decoration: none;
+  transition: 0.3s all ease-in;
+  -moz-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
+  -webkit-transition: 0.3s all ease-in;
+	 
+ }
+ 
+ .go a:hover{
+	   color: #0060a9;
+  text-decoration: none;
+ }
+
+@media (max-width:320px){
+.recipe-form{
+	width:auto;
+}	
+	
+}
+
+@media (max-width:480px){
+.recipe-form{
+	width:auto;
+
+}	
+	
+	
+}
+
+@media (max-width:600px){
+	
+	
+}
+
+@media (max-width:750px){
+	
+	
+}
+@media (max-width:950px){
+	
+	
+}
+
+@media (min-width:1920px){
+	
+	
+}
+
+@media (min-width:2500px){
+	
+	
+}
+
+
+
+
+
+
+
+

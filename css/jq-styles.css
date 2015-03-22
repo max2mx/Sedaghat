@@ -1,0 +1,156 @@
+/*
+body {
+  width: 960px;
+  margin: 0 auto;
+  background: url(../img/bg.png);
+  overflow-y: scroll;
+}
+header {
+  margin-top: 40px;
+}
+a {
+  color: #088BBF;
+  text-decoration: none;
+}
+h1 {
+  display: inline-block;
+  margin: 0;
+}
+*/
+
+.tiles-next{
+	position: absolute;
+	right: 1px;
+	width: 30px;
+}
+.tiles-prev{
+	position: absolute;
+	left: 1%;
+	width: 30px;
+}
+#down {
+  position: relative;
+  top: -18px;
+  margin: 0 1em;
+}
+.slider-wrap {
+  background-color: #f5f5f5;
+  width: 940px;
+  
+/*   padding: 10px; */
+/*   height: 440px; */
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+/*   text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  direction: rtl;
+}
+.slider {
+  width: 940px;
+  height: 400px;
+}
+
+.slider strong { color: #3598db; }
+article {
+  position: relative;
+}
+.title {
+  padding: 1em 0;
+  position: relative;
+}
+.code,
+#effects-select {
+  display: inline-block;
+}
+#effects-select {
+  padding: .4em;
+  margin-right: 1em;
+  font-size: 14px;
+  border: 1px solid #aaa;
+}
+label { margin-right: .5em; }
+code {
+  padding: .5em 1em;
+  background: rgba(255,255,255,.75);
+  font-size: 14px;
+  margin: 0 .2em;
+
+}
+.action {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  color: white;
+  background: black;
+  border: 0;
+  width: 80px;
+  padding: .6em 0;
+}
+.stop {
+  display: none;
+  background: #088BBF;
+  text-shadow: 1px 1px rgba(0,0,0,.4)
+}
+footer {
+  margin-top: 2em;
+}
+
+/*.tiles-nav span { padding: .3em; }*/
+
+/* Media Queries */
+
+
+
+@media (max-width:600px){
+	
+	
+}
+
+@media (max-width:950px){
+		.slider , .slider-wrap {
+	width: 550px;
+}
+	
+}
+
+
+
+@media (max-width:750px){
+		.slider , .slider-wrap {
+	width: 450px;
+}	
+	
+}
+@media (max-width:480px){
+	.slider , .slider-wrap {
+	width: 200px;
+}
+	 .view-products, #intro{
+		 width: auto;
+	 }	
+	 
+	 .tiles-nav{
+		 margin-left: -100px;
+	 }
+	
+}
+
+@media (max-width:320px){
+	.slider , .slider-wrap {
+	width: 150px;
+/* 	height: 136px; */
+	margin-top: 30px
+}
+}
+
+@media (min-width:1920px){
+	
+	
+}
+
+@media (min-width:2500px){
+	
+	
+}
+
+

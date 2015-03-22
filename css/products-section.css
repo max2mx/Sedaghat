@@ -1,0 +1,150 @@
+.products{
+	text-align: center;
+	padding: 45px 0;
+	display: block;
+	margin: 0;
+	margin-top: 160px;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;				
+}
+
+.products h2{
+	margin-top: -35px;
+	font-size: 3.3em;
+	font: normal 3.5em/1em 'BKoodakBold', sans-serif;
+	color: #3598db;
+	text-align: center;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+.more.style1 {
+	color: #ee3a43;
+}
+
+.more {
+	font-family: 'BKoodakBold', sans-serif;
+}
+
+.products ul {
+	margin: 122px 0;
+}
+
+.product li {
+	display: inline-block;
+	position: relative;
+	margin: 18px 15px;
+}
+
+.product a {
+	color: #ee3a43;
+	text-decoration: none;
+	transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	outline: 0;
+	overflow: hidden;
+	  display: block;
+	  height: 251px;
+}
+
+.product img {
+  width: 290px;
+  height: 251px;
+  -webkit-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+
+.product span,
+.product h2 {
+  font-family: 'BKoodakBold', sans-serif;
+  color: #fff;
+  line-height: 1.05em;
+  text-transform: uppercase;
+  background: rgba(238,58,67,0.85);
+  padding: 20px 0 15px;
+  width: 100%;
+  min-height: 55px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.product span b,
+.product h2 b {
+  font-weight: normal;
+  font-size: .8em;
+  color: #f9cb79;
+}
+
+.product a:hover img {
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -ms-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+
+@media (max-width:320px){
+	.products{
+		width: 320px;
+	}
+	
+}
+
+@media (max-width:480px){
+		width: 320px;
+	
+}
+
+@media (max-width:600px){
+	
+	
+}
+
+@media (max-width:750px){
+	
+	
+}
+@media (max-width:950px){
+	
+	
+}
+
+@media (min-width:1920px){
+	
+	
+}
+
+@media (min-width:2500px){
+	
+	
+}
+
+
+
+

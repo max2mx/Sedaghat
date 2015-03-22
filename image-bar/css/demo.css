@@ -1,0 +1,80 @@
+/* General Demo Style */
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.container {
+	width: 100%;
+/* 	margin-top: 50px; */
+	position: relative;
+}
+
+.clr {
+	clear: both;
+	float: none;
+}
+
+.main {
+/* 	width: 95%; */
+/* 	max-width: 960px; */
+/* 	padding: 0 10px; */
+	margin: 0 auto;
+	position: relative;
+}
+
+.main > header {
+	padding: 40px 0;
+}
+
+.main > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: 700;
+	color: #333;
+	float: left;
+}
+
+.main > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main p {
+	padding: 30px 0 0;
+	text-align: center;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+
+.js .fixed-bar {
+/* 	position: fixed; */
+
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.js .gallery {
+	width: 100%;
+	max-width: 450px;
+	margin: 0 auto;
+	border-radius: 20px;
+	position: relative;
+	background: #000 url(../images/black_denim.png);
+	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
+}
+
+.lt-ie8 .elastislide-list {
+	display: none;
+}
